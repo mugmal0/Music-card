@@ -1,0 +1,67 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+#root {
+  object-fit: cover;
+  background-image: url("./assets/img/backgroundImage.jpeg");
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: transparent;
+  padding: 0rem 1rem;
+  backdrop-filter: blur(3px);
+}
+.App .stake {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .stake .input {
+  display: flex;
+  flex: 1;
+  height: 1.5rem;
+}
+.App .wrapper {
+  width: 100%;
+  height: fit-content;
+  max-height: 100vh;
+  background-color: transparent;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+.App .wrapper .task-wrapper {
+  /*width: 100%;*/
+  display: flex;
+  padding: 0.4rem 0.8rem;
+  align-items: center;
+  border-style: none;
+  border-radius: 1.5rem;
+}
+
+.wrapper .task-wrapper p {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.task-wrapper p > .hr {
+  width: 70%;
+  display: flex;
+  align-self: center;
+  margin-top: 0.4rem;
+}
+.wrapper .task-wrapper button {
+  font-family: cursive, Arial;
+  padding: 0.4rem;
+}

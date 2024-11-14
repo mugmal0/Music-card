@@ -1,0 +1,16 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  background: black;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: blueviolet;
+}
